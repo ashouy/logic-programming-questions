@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { rotate } from '../src/rotate.js';
+import { rotate } from '../../src/rotate.js';
 
 test('test 1', () => {
   expect(rotate([1, 2, 3, 4, 5], 2)).toStrictEqual([4, 5, 1, 2, 3]);
